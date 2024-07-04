@@ -3,86 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página de prueba en HTML">
-    <meta name="author" content="Tu Nombre">
-    <title>Página de Prueba</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Animales en Peligro de Extinción</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
-        header, footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
+        h1, h2 {
+            color: #333;
         }
-        main {
-            padding: 1em;
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
         }
-        nav ul {
-            list-style: none;
-            padding: 0;
+        p {
+            margin-bottom: 15px;
         }
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
+        .animal {
+            margin-bottom: 30px;
         }
-        section {
-            margin-bottom: 2em;
+        .animal img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
         }
+        
     </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenidos a mi Página de Prueba</h1>
-        <nav>
-            <ul>
-                <li><a href="#about" style="color: white;">Acerca de</a></li>
-                <li><a href="#services" style="color: white;">Servicios</a></li>
-                <li><a href="#contact" style="color: white;">Contacto</a></li>
-            </ul>
-        </nav>
+        <h1>Animales en Peligro de Extinción</h1>
     </header>
-    <main>
-        <section id="about">
-            <h2>Acerca de</h2>
-            <p>Esta es una página de prueba creada para mostrar la estructura básica de un documento HTML.</p>
-        </section>
-        <section id="services">
-            <h2>Servicios</h2>
-            <ul>
-                <li>Desarrollo Web</li>
-                <li>Diseño Gráfico</li>
-                <li>Consultoría IT</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contacto</h2>
-            <form action="#" method="post">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-                <br>
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" required></textarea>
-                <br>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
+    
+    <section id="introduction">
+        <h2>Introducción</h2>
+        <p>Los animales en peligro de extinción son especies que enfrentan un alto riesgo de desaparecer de la Tierra. Esto puede ser debido a la pérdida de hábitat, caza ilegal, cambio climático u otros factores humanos.</p>
+    </section>
+
+    <section id="listado">
+        <h2>Algunos Ejemplos de Animales en Peligro de Extinción</h2>
+        
+        <div class="animal">
+            <h3>Panda Gigante</h3>
+            <img src="panda.jpg" alt="Panda Gigante" width="80%">
+            <p><strong>El panda gigante</strong> es un símbolo de conservación y está amenazado principalmente por la pérdida de su hábitat natural.</p>
+            <p>Afortunadamente, el declive de la población se ha detenido y parece estar aumentando debido a acciones de conservación, protección forestal 
+                y reforestación. En 2021, el oso panda dejó oficialmente de considerarse en peligro de extinción. Sin embargo, es crucial seguir trabajando 
+                para garantizar su supervivencia, especialmente ante el cambio climático que podría afectar su hábitat de bosques de bambú1
+            </p>
+        </div>
+        
+        <div class="animal">
+            <h3>Tigre de Bengala</h3>
+            <img src="tigre.jpg" alt="Tigre de Bengala" width="80%">
+            <p>
+                El tigre de Bengala enfrenta amenazas como la caza furtiva y la destrucción de sus bosques por la expansión humana.</p>
+            <p>
+                El <strong>tigre de Bengala</strong> (Panthera tigris tigris) es una subespecie de tigre que habita en regiones de India, Nepal, Bangladesh, Bután, Birmania y Tíbet. Lamentablemente, se encuentra en peligro de extinción debido a diversas amenazas1. Algunas de las causas principales son:
+            </p>
+            <p>
+               <strong>Degradación y pérdida de hábitat:</strong> La destrucción de bosques y pastizales para la agricultura y el crecimiento de poblaciones humanas ha afectado gravemente su entorno natural.
+            </p>
+            <p>
+               <strong>Caza furtiva:</strong> La caza ilegal de tigres para el comercio de pieles y partes del cuerpo es una amenaza constante.
+            </p>
+            <p>
+               <strong>Fragmentación del hábitat:</strong> La severa fragmentación del hábitat ha dejado a las poblaciones de tigres aisladas, 
+               dificultando su supervivencia.
+            </p>
+            <p>
+                Para evitar su extinción, se requieren medidas de conservación más efectivas y la protección de su hábitat natural. A nivel global, 
+                se estima que quedan menos de 2,500 tigres de Bengala en todo el mundo2. Es fundamental que sigamos trabajando para preservar esta 
+                fascinante especie y su ecosistema
+            </p>
+        </div>
+        
+        <div class="animal">
+            <h3>Rinoceronte Negro</h3>
+            <img src="rinoceronte.jpg" alt="Rinoceronte Negro" width="80%">
+            <p>
+               <strong>El rinoceronte negro</strong> (Diceros bicornis) está<strong> críticamente amenazado de extinción</strong>. 
+               A pesar de ser uno de los animales más resistentes del mundo, su población ha disminuido drásticamente 
+               debido a la <strong> caza indiscriminada</strong>, la <strong> destrucción de sus hábitats</strong> y el 
+               <strong> desarrollo de enfermedades</strong>. Actualmente, se están llevando a cabo medidas de recuperación y 
+               conservación para proteger esta especie. Además, existen cinco especies de rinocerontes en total, y todas enfrentan amenazas similares. Por ejemplo, el rinoceronte blanco (Ceratotherium simum) también está en peligro, aunque se están realizando esfuerzos para protegerlo y reintroducirlo en su hábitat natural3. Es fundamental que continuemos apoyando estos esfuerzos para preservar a estos majestuosos animales y evitar su extinción
+
+            </p>
+        </div>
+        
+        <!-- Añadir más animales en peligro de extinción según sea necesario -->
+    </section>
     <footer>
-        <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Animales en Peligro de Extinción - Todos los derechos reservados</p>
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('Página cargada completamente');
-        });
-    </script>
+    
 </body>
+
 </html>
